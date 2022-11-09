@@ -1,13 +1,13 @@
 {
-  "name": "longruan-ui",
+  "name": "longruan-test-ui",
   "version": "0.1.1",
-  "private": true,
-  "main":"lib/longruan-ui.comon.js",
+  "private": false,
+  "main":"lib/longruan-test-ui.comon.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-	"lib": "vue-cli-service build --target lib --name longruan-ui --dest lib ./packages/index.js"
+	"lib": "vue-cli-service build --target lib --name longruan-test-ui --dest lib ./src/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
