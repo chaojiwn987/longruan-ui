@@ -1,5 +1,10 @@
 <template>
-    <el-input v-model="input" placeholder="请输入内容"></el-input>
+	<div>
+		<el-input v-model="input" placeholder="请输入内容"></el-input>
+		2324
+		<span class="icon icon">&#xe765;</span>
+	</div>
+    
   </template>
 
   <script>
